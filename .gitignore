@@ -1,0 +1,26 @@
+# 인증 정보와 환경 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*token*
+*secret*
+
+# 운영체제와 편집기 임시 파일
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 개인 원본 자료와 테스트 결과
+private/
+personal-data/
+original-data/
+raw-data/
+secrets/
+tmp/
+temp/
+*.log
